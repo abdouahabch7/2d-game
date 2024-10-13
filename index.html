@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Platformer Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Title Screen -->
+    <div id="titleScreen">
+        <h1>Welcome to the Game</h1>
+        <button id="startButton">Start Game</button>
+    </div>
+
+    <!-- Game Canvas -->
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <div id="gameOverScreen">
+        <h1>Game Over</h1>
+        <p>Your score: <span id="finalScore">0</span></p>
+        <button id="playAgainButton">Play Again</button>
+    </div>
+
+    <div id="cooldownDisplay">Dash Ready!</div> <!-- Cooldown display -->
+
+    <script src="game.js"></script>
+</body>
+</html>
